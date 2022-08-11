@@ -59,7 +59,7 @@ CLASS ZCL_LANGUAGE_DEPENDENT_TEXT IMPLEMENTATION.
 
   method in_current_language.
 
-    r_text_in_current_language = me->in( sy-langu ).
+    r_text_in_current_language = me->in( cl_abap_syst=>get_language( ) ).
 
   endmethod.
 
