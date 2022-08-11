@@ -10,6 +10,32 @@
     <STATE>1</STATE>
     <UNICODE>X</UNICODE>
    </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_LANGUAGE_DEPENDENT_TEXT</CLSNAME>
+     <CMPNAME>AVAILABLE_LANGUAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns list of all languages found for this text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_LANGUAGE_DEPENDENT_TEXT</CLSNAME>
+     <CMPNAME>AVAILABLE_TRANSLATIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns list of all translations found for this text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_LANGUAGE_DEPENDENT_TEXT</CLSNAME>
+     <CMPNAME>IN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns text in specified language (throws exc if not found)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_LANGUAGE_DEPENDENT_TEXT</CLSNAME>
+     <CMPNAME>IN_CURRENT_LANGUAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns text in current language (throws exc if not found)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
   </asx:values>
  </asx:abap>
 </abapGit>

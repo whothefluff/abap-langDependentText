@@ -1,3 +1,4 @@
+"! <p class="shorttext synchronized" lang="EN">Language dependent text</p>
 class zcl_language_dependent_text definition
                                   public
                                   create public.
@@ -11,6 +12,9 @@ class zcl_language_dependent_text definition
              available_languages for zif_language_dependent_text~available_languages,
              available_translations for zif_language_dependent_text~available_translations.
 
+    "! <p class="shorttext synchronized" lang="EN">Creates a text with the supplied translations</p>
+    "!
+    "! @parameter i_translations | <p class="shorttext synchronized" lang="EN"></p>
     methods constructor
               importing
                 i_translations type zif_language_dependent_text=>t_translations.
